@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="API_000" xml:space="preserve">
+    <value>System.StubHelpers.AnsiCharMarshaler::DoAnsiConversion=Convert a managed System.String instance to an Ansi string instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_001" xml:space="preserve">
+    <value>System.StubHelpers.AnsiCharMarshaler::ConvertToNative=Convert a managed character to an Ansi character.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_002" xml:space="preserve">
+    <value>System.StubHelpers.AnsiCharMarshaler::ConvertToManaged=Convert an Ansi character character to a managed character.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_003" xml:space="preserve">
+    <value>System.StubHelpers.CSTRMarshaler::ConvertToNative=Convert a System.String instance to an Ansi string (LPSTR) instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_004" xml:space="preserve">
+    <value>System.StubHelpers.CSTRMarshaler::ConvertToManaged=Convert an Ansi string (LPSTR) instance to a System.String instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_005" xml:space="preserve">
+    <value>System.StubHelpers.CSTRMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_006" xml:space="preserve">
+    <value>System.StubHelpers.BSTRMarshaler::ConvertToNative=Convert a System.String instance to a BSTR instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_007" xml:space="preserve">
+    <value>System.StubHelpers.BSTRMarshaler::ConvertToManaged=Convert a BSTR instance to a System.String instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_008" xml:space="preserve">
+    <value>System.StubHelpers.BSTRMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_009" xml:space="preserve">
+    <value>System.StubHelpers.VBByValStrMarshaler::ConvertToNative=Convert a System.String instance to VBByRefStr instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_010" xml:space="preserve">
+    <value>System.StubHelpers.VBByValStrMarshaler::ConvertToManaged=Convert a VBByRefStr instance to a System.String instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_011" xml:space="preserve">
+    <value>System.StubHelpers.VBByValStrMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_012" xml:space="preserve">
+    <value>System.StubHelpers.AnsiBSTRMarshaler::ConvertToNative=Convert a System.String instance to an Ansi BSTR instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_013" xml:space="preserve">
+    <value>System.StubHelpers.AnsiBSTRMarshaler::ConvertToManaged=Convert an Ansi BSTR instance to a System.String instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_014" xml:space="preserve">
+    <value>System.StubHelpers.AnsiBSTRMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_015" xml:space="preserve">
+    <value>System.StubHelpers.WSTRBufferMarshaler::ConvertToNative=Convert a System.String instance to a LPWSTR instance. This function should not be invoked.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_016" xml:space="preserve">
+    <value>System.StubHelpers.WSTRBufferMarshaler::ConvertToManaged=Convert a LPWSTR instance to a System.String instance. This function should not be invoked.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_017" xml:space="preserve">
+    <value>System.StubHelpers.WSTRBufferMarshaler::ConvertToClearNative=Free the memory used in the marshaler. This function should not be invoked.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_018" xml:space="preserve">
+    <value>System.StubHelpers.ObjectMarshaler::ConvertToNative=Convert a System.Object instance to a native representation, which could be IUnknown, IDispatch, VARIANT, struct, and so on.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_019" xml:space="preserve">
+    <value>System.StubHelpers.ObjectMarshaler::ConvertToManaged=Convert a native data type instance, for example IUnknown, IDispatch VARIANT, struct,  to a System.Object instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_020" xml:space="preserve">
+    <value>System.StubHelpers.ObjectMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_021" xml:space="preserve">
+    <value>System.StubHelpers.ValueClassMarshaler::ConvertToNative=Convert a managed struct instance to a native struct instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_022" xml:space="preserve">
+    <value>System.StubHelpers.ValueClassMarshaler::ConvertToManaged=Convert a native struct instance to a managed struct instance.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_023" xml:space="preserve">
+    <value>System.StubHelpers.ValueClassMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_024" xml:space="preserve">
+    <value>System.StubHelpers.DateMarshaler::ConvertToNative=Convert a System.DateTime instance to a DATE type instance. DATE type is actually float.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_025" xml:space="preserve">
+    <value>System.StubHelpers.DateMarshaler::ConvertToManaged=Convert a DATE type instance to a System.DateTime instance. This function returns int64 value for System.DateTime.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_026" xml:space="preserve">
+    <value>System.StubHelpers.InterfaceMarshaler::ConvertToNative=Convert a managed object to a COM interface pointer.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_027" xml:space="preserve">
+    <value>System.StubHelpers.InterfaceMarshaler::ConvertToManaged=Convert a COM interface pointer to a managed object.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_028" xml:space="preserve">
+    <value>System.StubHelpers.InterfaceMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_029" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::CreateMarshaler=Initialize a native array marshaler to convert a native array to a managed array or a managed array to a native array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_030" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::ConvertSpaceToNative=Allocate memory for a native array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_031" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::ConvertContentsToNative=Convert contents of a managed array to a native array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_032" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::ConvertSpaceToManaged=Allocate memory for a managed array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_033" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::ConvertContentsToManaged=Convert contents of a native array to a managed array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_034" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_035" xml:space="preserve">
+    <value>System.StubHelpers.MngdNativeArrayMarshaler::ClearNativeContents=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_036" xml:space="preserve">
+    <value>System.StubHelpers.MngdSafeArrayMarshaler::CreateMarshaler=Initialize a safe array marshaler to convert a safe array to a managed array or a managed array to a safe array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_037" xml:space="preserve">
+    <value>System.StubHelpers.MngdSafeArrayMarshaler::ConvertSpaceToNative=Allocate memory for a safe array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_038" xml:space="preserve">
+    <value>System.StubHelpers.MngdSafeArrayMarshaler::ConvertContentsToNative=Convert contents of a managed array to a safe array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_039" xml:space="preserve">
+    <value>System.StubHelpers.MngdSafeArrayMarshaler::ConvertSpaceToManaged=Allocate memory for a managed array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_040" xml:space="preserve">
+    <value>System.StubHelpers.MngdSafeArrayMarshaler::ConvertContentsToManaged=Convert contents of a safe array to a managed array.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_041" xml:space="preserve">
+    <value>System.StubHelpers.MngdSafeArrayMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_042" xml:space="preserve">
+    <value>System.StubHelpers.MngdRefCustomMarshaler::CreateMarshaler=Set the custom marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_043" xml:space="preserve">
+    <value>System.StubHelpers.MngdRefCustomMarshaler::ConvertContentsToNative=Use custom marshaler to convert managed contents to native contents.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_044" xml:space="preserve">
+    <value>System.StubHelpers.MngdRefCustomMarshaler::ConvertContentsToManaged=Use custom marshaler to convert native contents to managed contents.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_045" xml:space="preserve">
+    <value>System.StubHelpers.MngdRefCustomMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_046" xml:space="preserve">
+    <value>System.StubHelpers.MngdRefCustomMarshaler::ClearManaged=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_047" xml:space="preserve">
+    <value>System.StubHelpers.AsAnyMarshaler::ConvertToNative=Convert a System.Object instance with 'MarshalAs(UnmanagedType.AsAny)' attribute to the native representation.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_048" xml:space="preserve">
+    <value>System.StubHelpers.AsAnyMarshaler::ConvertToManaged=Convert a native data type to a System.Object instance with 'MarshalAs(UnmanagedType.AsAny)' attribute.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_049" xml:space="preserve">
+    <value>System.StubHelpers.AsAnyMarshaler::ClearNative=Free the memory used in the marshaler.</value>
+    <comment>done</comment>
+  </data>
+  <data name="API_050" xml:space="preserve">
+    <value>System.StubHelpers.EEFrame::Push=</value>
+  </data>
+  <data name="API_051" xml:space="preserve">
+    <value>System.StubHelpers.EEFrame::Pop=</value>
+  </data>
+  <data name="API_052" xml:space="preserve">
+    <value>System.StubHelpers.CleanupWorkList::Add=</value>
+  </data>
+  <data name="API_053" xml:space="preserve">
+    <value>System.StubHelpers.CleanupWorkList::Destroy=</value>
+  </data>
+  <data name="API_054" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::IsQCall=</value>
+  </data>
+  <data name="API_055" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::InitDeclaringType=</value>
+  </data>
+  <data name="API_056" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetNDirectTarget=</value>
+  </data>
+  <data name="API_057" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetDelegateTarget=</value>
+  </data>
+  <data name="API_058" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::Verify__EEFrame__Pop=</value>
+  </data>
+  <data name="API_059" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::Verify__EEFrame__Push=</value>
+  </data>
+  <data name="API_060" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetProcessGSCookie=</value>
+  </data>
+  <data name="API_061" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::FailFast=</value>
+  </data>
+  <data name="API_062" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::DoNDirectCall=</value>
+  </data>
+  <data name="API_063" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::DoCLRToCOMCall=</value>
+  </data>
+  <data name="API_064" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::BeginStandalone=</value>
+  </data>
+  <data name="API_065" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::BeginCLRToCOMStandalone=</value>
+  </data>
+  <data name="API_066" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::DemandPermission=</value>
+  </data>
+  <data name="API_067" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::SetLastError=</value>
+  </data>
+  <data name="API_068" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::ThrowDeferredException=</value>
+  </data>
+  <data name="API_069" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::ThrowInteropParamException=</value>
+  </data>
+  <data name="API_070" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::AddToCleanupList=</value>
+  </data>
+  <data name="API_071" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::DestroyCleanupList=</value>
+  </data>
+  <data name="API_072" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetHRExceptionObject=</value>
+  </data>
+  <data name="API_073" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::InternalGetHRExceptionObject=</value>
+  </data>
+  <data name="API_074" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetCOMHRExceptionObject=</value>
+  </data>
+  <data name="API_075" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::InternalGetCOMHRExceptionObject=</value>
+  </data>
+  <data name="API_076" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::CreateCustomMarshalerHelper=</value>
+  </data>
+  <data name="API_077" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::SafeHandleAddRef=</value>
+  </data>
+  <data name="API_078" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::SafeHandleRelease=</value>
+  </data>
+  <data name="API_079" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetCLRToCOMTarget=</value>
+  </data>
+  <data name="API_080" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetCOMIPFromRCW=</value>
+  </data>
+  <data name="API_081" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::StubRegisterRCW=</value>
+  </data>
+  <data name="API_082" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::StubUnregisterRCW=</value>
+  </data>
+  <data name="API_083" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::ProfilerBeginTransitionCallback=</value>
+  </data>
+  <data name="API_084" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::ProfilerEndTransitionCallback=</value>
+  </data>
+  <data name="API_085" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::DebuggerTraceCall=</value>
+  </data>
+  <data name="API_086" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::CheckStringLength=</value>
+  </data>
+  <data name="API_087" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::strlen=</value>
+  </data>
+  <data name="API_088" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::DecimalCanonicalizeInternal=</value>
+  </data>
+  <data name="API_089" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::FmtClassUpdateNativeInternal=</value>
+  </data>
+  <data name="API_090" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::FmtClassUpdateCLRInternal=</value>
+  </data>
+  <data name="API_091" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::LayoutDestroyNativeInternal=</value>
+  </data>
+  <data name="API_092" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::AllocateInternal=</value>
+  </data>
+  <data name="API_093" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::MarshalToUnmanagedVaListInternal=</value>
+  </data>
+  <data name="API_094" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::MarshalToManagedVaListInternal=</value>
+  </data>
+  <data name="API_095" xml:space="preserve">
+    <value>System.StubHelpers.StubHelpers::GetStubContext=</value>
+  </data>
+</root>
